@@ -1,0 +1,34 @@
+#home-main-div {
+  display: flex;
+  justify-content: center;
+  margin: 3em;
+  height: 90vh;
+  width: 100%-3em;
+}
+
+#home-words-div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin: 5px;
+}
+
+#home-photo {
+  width: 35vw;
+  max-width: 700px;
+  height: 80vh;
+  max-height: 35vw;
+  border-radius: 100%;
+  background-image: url("./black-me.jpg");
+  background-position-x: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
